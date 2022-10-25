@@ -1,0 +1,27 @@
+
+body{
+    background-color: bisque;
+}
+
+.title{
+    margin-top: 20px;
+}
+.img-box{
+    width: 100%;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.text-box{
+    background-color: white;
+}
+#mc-card{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.tab{
+    flex-wrap: wrap;
+    float: left;
+}
