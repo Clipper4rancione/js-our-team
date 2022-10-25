@@ -1,4 +1,6 @@
 
+const container = document.getElementById('container-info');
+
 /*
 **MILESTONE 0:**
 Creare l’array di oggetti con le informazioni fornite.
@@ -46,5 +48,18 @@ const members = [
 Stampare su console le informazioni di nome, ruolo e la stringa della foto
 */
 for(let member of members){
+    
     console.log(member);
+    /*
+    **MILESTONE 2:**
+    Stampare le stesse informazioni su DOM sotto forma di stringhe
+    */
+   container.innerHTML +=   `<div>
+                                Name: ${member.nome} 
+                                Ruolo: ${member.ruolo} 
+                                String Img: ${member.img} 
+                             </div>`;
+
+
+    
 }
